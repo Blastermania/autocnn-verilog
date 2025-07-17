@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Checkpoints & logs
+*.log
+*.pth
+!final_model/model.pth
+
+# Intermediate Verilog outputs
+*.vcd
+*.vvp
+*.out
+waveforms/*.vcd
+
+# Other
+tmp*/ junk*/ test*/ debug*/ old_model*/ checkpoints*/
+
+# VSCode or IDEs
+.vscode/

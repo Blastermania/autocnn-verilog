@@ -1,0 +1,32 @@
+{
+  "layers": [
+    {
+      "type": "Conv2d",
+      "name": "conv1",
+      "in_channels": 1,
+      "out_channels": 32,
+      "kernel_size": 3,
+      "padding": 1
+    },
+    {
+      "type": "Conv2d",
+      "name": "conv2",
+      "in_channels": 32,
+      "out_channels": 64,
+      "kernel_size": 3,
+      "padding": 1
+    },
+    {
+      "type": "Linear",
+      "name": "fc1",
+      "in_features": 3136,
+      "out_features": 128
+    },
+    {
+      "type": "Linear",
+      "name": "fc2",
+      "in_features": 128,
+      "out_features": 10
+    }
+  ]
+}
