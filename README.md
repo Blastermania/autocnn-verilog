@@ -1,7 +1,6 @@
 # AutoCNN-Verilog 🧠➡️📐  
 Automatically convert trained CNN models to synthesizable Verilog RTL.
 
-![License](https://img.shields.io/github/license/Blastermania/autocnn-verilog)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Verilog](https://img.shields.io/badge/Verilog-Synthesizable-green)
 ![Framework](https://img.shields.io/badge/PyTorch-trained-orange)
