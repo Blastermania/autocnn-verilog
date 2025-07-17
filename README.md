@@ -1,4 +1,4 @@
-# AutoCNN-Verilog 🧠➡️📐  
+# AutoCNN-Verilog 
 Automatically convert trained CNN models to synthesizable Verilog RTL.
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
@@ -7,27 +7,27 @@ Automatically convert trained CNN models to synthesizable Verilog RTL.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This toolchain converts a **PyTorch-trained CNN model** into a **flattened, behavioral Verilog RTL** design for simulation and synthesis. The generated design is compatible with tools like:
 
-- ✅ Icarus Verilog (for simulation)
-- ✅ GTKWave (for waveform viewing)
-- ✅ Yosys (for RTL synthesis)
-- ✅ OpenROAD/ASIC (future support)
+-  Icarus Verilog (for simulation)
+-  GTKWave (for waveform viewing)
+-  Yosys (for RTL synthesis)
+-  OpenROAD/ASIC (future support)
 
 ---
 
-## 🧰 Features
+##  Features
 
-- 🔁 **Model Export**: Converts trained + pruned CNN to weights/bias `.mem` files
-- 🧠 **Fully Behavioral Verilog**: Implements conv2d, relu, maxpool, fc, top module
-- ⚙️ **RTL Simulation**: Generates testbench + runs Icarus Verilog
-- 📦 **Waveform Dump**: Outputs `.vcd` files for GTKWave
-- 🏗️ **RTLIL/Yosys Compatible**: Synthesizable RTL output
+- **Model Export**: Converts trained + pruned CNN to weights/bias `.mem` files
+- **Fully Behavioral Verilog**: Implements conv2d, relu, maxpool, fc, top module
+- **RTL Simulation**: Generates testbench + runs Icarus Verilog
+- **Waveform Dump**: Outputs `.vcd` files for GTKWave
+- **RTLIL/Yosys Compatible**: Synthesizable RTL output
 
 
-## ⚙️ Requirements
+## Requirements
 
 - Python 3.8+
 - PyTorch
@@ -37,7 +37,7 @@ This toolchain converts a **PyTorch-trained CNN model** into a **flattened, beha
 
 ---
 
-## 🧪 How to Run
+## How to Run
 
 ### 1. (Optional) Train your CNN
 If you haven't already trained your model, run: "python train_model.py"
