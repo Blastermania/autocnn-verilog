@@ -7,7 +7,7 @@ Automatically convert trained CNN models to synthesizable Verilog RTL.
 
 ---
 
-## Project Overview
+## Overview
 
 This toolchain converts a **PyTorch-trained CNN model** into a **flattened, behavioral Verilog RTL** design for simulation and synthesis. The generated design is compatible with tools like:
 
