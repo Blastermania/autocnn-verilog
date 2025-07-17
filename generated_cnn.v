@@ -101,5 +101,4 @@ module cnn_top (
     input logic [15:0] input_image[1][28][28], // assuming 1 input channel
     output logic [15:0] output_logits[10]
 );
-    // Declare wires between layers as needed (not wired here for brevity)
 endmodule
